@@ -1,0 +1,170 @@
+nav
+{
+    /* background-color:lightpink; */
+    height: 50px;
+
+}
+nav ul{
+ 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a
+{
+   float:right;
+   padding: 10px;
+   list-style-type: none;
+   text-align: center;
+   color:white;
+   font-size: large;
+
+}
+nav ul li a:hover
+{
+    background-color:coral;
+}
+body
+{
+    background-image: url(/images/starsBG.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:Verdana;
+}
+:root
+{
+    --bg-color:black;
+}
+body
+{
+    background-color: var(--bg-color);
+}
+
+.rounded-button
+{
+    height: 60px;
+    width: 140px;
+    border-radius: 70px;
+    /* font-weight: bold; */
+    font-size: medium;
+    text-decoration: none;
+}  
+
+.rounded-button:hover
+{
+    background-color: yellow;
+}
+/* #moveable-image
+{
+    /* transform: rotate(45deg); */
+    /* transition: transform 0.3 ease; */
+    /* transform: translate(50px,50px); */
+     /* transition: background-color 0.3s ease; 
+}*/
+.progress-bar
+{
+    width:100%;
+    background-color:black;
+    border-radius: 9px;
+    padding: 5px;
+}
+.progress
+{
+    width:0px;
+    height: 18px;
+    background-color:yellow;
+    border-radius: 9px;
+
+}
+.skills
+{
+    padding:5px;
+}
+#home-section{
+   
+   justify-content: center;
+   padding:10%;
+   margin:10%;
+}
+#home-section-flex1
+{
+   
+    padding-top: 40px;
+}
+#home-section-flex2
+{
+   
+   
+    padding:0% 30% 5% 30% ;
+    
+   justify-content: center;
+    
+    align-items: center;
+    
+}
+
+#about-section-flex
+{
+    display: flex;
+    color:white;
+    padding-top: 0%;
+    justify-content: center;
+    margin-top:2%;
+}
+
+#about-section-flex2
+{
+flex:5;
+
+
+}
+#about-section-flex3
+{
+flex: 5;
+}
+#resume-section
+{
+    display:flex;
+    padding-top:10%;
+    justify-content: center;
+    margin:10px;
+}
+#contact-section
+{
+   
+    display:flex;
+    padding-top:10%;
+    justify-content: center;
+    margin:10px;
+}
+#fun-section
+{
+    display: flex;
+    display:flex;
+    padding-top:10%;
+    justify-content: center;
+    margin:10px;
+}
+.Intro1
+{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    padding:2%;
+}
+.Intro2
+{
+    font-size: 25px;
+    
+}
+.aboutme
+{
+    color: grey; 
+    font-size: 18px; 
+    font-family:   Verdana; 
+    line-height: 30px;
+}
+
+
+ 
+

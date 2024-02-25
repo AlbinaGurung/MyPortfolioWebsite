@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albina Gurung</title>
+    <link rel="stylesheet" href="css.css">
+   
+</head>
+<!-- <body style="background-image:url(/images/astheticpinkBG.png);background-size:cover;background-repeat: no-repeat;"> -->
+    <body>
+        <nav>
+        <div>
+            <ul>
+            <li >
+            <a href="#home-section" ><span>Home</span></a>
+            <a href="#about-section"><span>About</span></a>
+            <a href="#resume-section" ><span>Resume</span></a>
+            <a href="#contact-section"><span>Contact</span></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <section id="home-section ">
+         <div id="home-section-flex1">
+         <div style="border-radius: 50%; overflow: hidden; width: 180px; height: 180px; " class="image-container">
+            <img src="/images/MyProfile.jpg" alt="" style="width: 180px; height: 180px ; " class="moving-image">
+            <script src="js.js"></script>
+         </div>
+         </div>
+
+         <div id="home-section-flex2">
+         <span style="color:white; size: 5px;">Hello!</span>
+          <div style="font-size:50px; padding: 2%; font-weight: bold;">
+            <span style="color: white; "> Iam</span>
+            <span style="color:yellow; ">Albina Gurung</span> 
+         </div>
+          
+         <div style="margin: 20px;">
+          <span id="typing-animation" style="color: white; margin-left: 10%; font-size: 25px; font-weight: 30px;"></span>
+        </div>
+         <script>
+         const typingText=['Web Developer','Youtuber','IT Student'];
+         const typingAnimationElement=document.getElementById('typing-animation');
+         function playTypingAnimation(text)
+          {
+            for(let i=0;i<text.length;i++)
+            {
+
+            setTimeout(()=>
+            {
+                typingAnimationElement.textContent+=text[i];
+            },i*200);
+           }
+           setTimeout(()=>
+           {
+            typingAnimationElement.textContent='';
+            playTypingAnimation(typingText[(typingText.indexOf(text)+1)%typingText.length]);
+           },text.length*200);
+           
+         }
+         playTypingAnimation(typingText[0]);
+         </script>
+         <div style="color:yellow; padding:5%; font-size: 30px; font-weight: 20px; ">
+             A consistent Learner and Coding Enthusiast
+         </div>
+
+         <div style="margin-left: 10%;">
+          <button class="rounded-button"><a href="https://www.youtube.com/@learnwithalbina" style="text-decoration: none; color: black;">My Youtube</a></button>
+          <button class="rounded-button"> <a href="https://github.com/AlbinaGurung" style="text-decoration: none; color: black;">My Works</a> </button>
+         </div>
+
+         </div>
+         
+        </section>
+        
+    <section id="about-section" style="margin:10%;">
+        <div>
+       <span style="color:white;padding-left: 35%; font-size: 50px; font-weight: bold; ">About Me</span>
+    </div>
+     <div id="about-section-flex" style="padding-top: 0%;">
+        
+        
+        <div id="about-section-flex2" class="aboutme">
+         <div id="introduction" >
+            <ul>
+                <li style="list-style-type: none;"><span >Name:</span><span >Albina Gurung</span></li>
+                <li style="list-style-type:none ;"><span>Age:</span><span>23 Years</span></li>
+                <li style="list-style-type: none;"><span>Job Role:</span><span >An IT student and a Coding Enthusiast</span></li>
+                <li style="list-style-type: none;"><span>Experience:</span><span>1 year</span></li>
+                <li style="list-style-type: none;"><span>Address:</span><span>Birtamode-Jhapa,Nepal</span></li>
+            </ul>
+         </div>
+        
+         <div id="skills">
+           <div> <h1>Skills</h1></div>
+           <div class="skills">
+           <span>HTML 85%</span>
+            <div class="progress-bar">
+                <div  class="progress" style="width: 85%;"></div>
+
+            </div>
+        </div> 
+        <div class="skills">
+            <span>CSS 85%</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;">
+
+                </div>
+
+            </div>
+        </div>
+         
+        <div class="skills">
+            <span>JS 60%</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;">
+
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="skills">
+            <span>PHP 60%</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%;">
+
+                </div>
+        </div>
+
+        <div class="skills">
+            </div>
+            <span>SQL 80%</span>
+            <div class="progress-bar">
+                <div class="progress" style="width:60%;">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="skills">
+            <span>DOT Net MVC 70%</span>
+            <div class="progress-bar">
+             <div class="progress" style="width:70%;">
+
+             </div>
+            </div>
+         </div>
+        </div>
+         
+
+        </div>
+        <div id="about-section-flex3" class="aboutme">
+          <div ><p>With an year of Comprehensive Experience in application development, I have acquired knowledge of how an 
+            application is planned, structured, built and maintained. I have found this journey full of fun and impactful.<br> 
+        I consider myself as an evergreen lerner and an explorer who loves to collaborate, learn and work togther and trying out bunch 
+          of new things.</p></div>
+          <ul>
+            <li>Profile: Web Developer </li>
+            <li>Education: Bacholers in Computer Application</li>
+            <li>Language:English,Nepali and Hindi</li>
+            <li>Other Skills:Bootstrap,DSA </li>
+            <li>Intrest: Reading,Gardening,Teaching,Travelling</li>
+          </ul>
+        </div>
+    </div>
+     </section>
+    
+
+     <section id="resume-section">
+     <H1 style="color:white">This is Resume Section</H1>
+     </section>
+
+     <section id="contact-section">
+        <h1 style="color:white">This is Contact Section</h1>
+      </section>
+      <section id="fun-section">
+        <button class="colorbtn" onclick="changeColor()">changecolor</button>
+      </section>
+    
+ </body>
+ </html>
