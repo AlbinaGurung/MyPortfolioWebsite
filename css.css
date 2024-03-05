@@ -83,8 +83,8 @@ body
 #home-section{
    
    justify-content: center;
-   padding:10%;
-   margin:10%;
+   
+   
 }
 #home-section-flex1
 {
@@ -107,7 +107,6 @@ body
 {
     display: flex;
     color:white;
-    padding-top: 0%;
     justify-content: center;
     margin-top:2%;
 }
@@ -124,19 +123,45 @@ flex: 5;
 }
 #resume-section
 {
+    color:grey;
+}
+#resume-section-flex
+{
     display:flex;
-    padding-top:10%;
+    color: grey;
     justify-content: center;
-    margin:10px;
+    margin-top: 2%;;
+}
+#resume-section-flex1
+{
+    flex:5;
+    padding:3%;
+    
+
+}
+#resume-section-flex2
+{
+    flex:5;
+    padding:3%;
 }
 #contact-section
 {
    
-    display:flex;
-    padding-top:10%;
+    
+    color: grey;
     justify-content: center;
-    margin:10px;
+   
 }
+#contact-section-flex
+{
+display:flex;
+}
+#contact-section-flex1
+{
+flex:auto;
+}
+
+
 #fun-section
 {
     display: flex;
@@ -145,14 +170,14 @@ flex: 5;
     justify-content: center;
     margin:10px;
 }
-.Intro1
+.intro1
 {
     color: grey;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     padding:2%;
 }
-.Intro2
+.intro2
 {
     font-size: 25px;
     
@@ -161,8 +186,23 @@ flex: 5;
 {
     color: grey; 
     font-size: 18px; 
-    font-family:   Verdana; 
+    font-weight: bold;
     line-height: 30px;
+}
+.section-heading{
+    color:white;
+    font-size: 50px; 
+     font-weight: bold;
+     padding-left: 35%;
+     display: block;
+     width: 100%;
+}
+#linkstyle
+{
+    color: yellow;
+    font-size: 15px;
+    font-weight:15px;
+    padding:2%;
 }
 
 
