@@ -2,13 +2,22 @@ nav
 {
     /* background-color:lightpink; */
     height: 50px;
+    position:fixed;
+   
+    top: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding: 4px;
+
 
 }
-nav ul{
+/* nav ul{
  
     padding: 0;
     margin: 0;
-}
+} */
 
 nav ul li a
 {
@@ -18,12 +27,22 @@ nav ul li a
    text-align: center;
    color:white;
    font-size: large;
+   text-decoration: none;
+   
 
 }
 nav ul li a:hover
 {
-    background-color:coral;
+    background-color:darkgoldenrod;
 }
+@media (max-width: 768px) {
+    #profile-picture {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
 body
 {
     background-image: url(/images/starsBG.jpeg);
@@ -82,18 +101,22 @@ body
 }
 #home-section{
    
+    display: flex;
    justify-content: center;
+  
    
    
 }
 #home-section-flex1
 {
    
+    flex:auto;
     padding-top: 40px;
+
 }
 #home-section-flex2
 {
-   
+   flex:auto;
    
     padding:0% 30% 5% 30% ;
     
@@ -111,16 +134,14 @@ body
     margin-top:2%;
 }
 
-#about-section-flex2
+#about-section-flex1
 {
 flex:5;
+color: grey;
 
 
 }
-#about-section-flex3
-{
-flex: 5;
-}
+
 #resume-section
 {
     color:grey;
@@ -128,21 +149,40 @@ flex: 5;
 #resume-section-flex
 {
     display:flex;
-    color: grey;
+    color:white;
     justify-content: center;
     margin-top: 2%;;
 }
+
 #resume-section-flex1
 {
-    flex:5;
+    flex:10;
     padding:3%;
+   
+    color: white;
+    background-color: darkgoldenrod;
+    border-radius: 2%;
     
-
 }
+
 #resume-section-flex2
 {
-    flex:5;
+    flex:10;
     padding:3%;
+    margin-left: 3%;
+    color: white;
+    background-color: darkolivegreen;
+    border-radius: 2%;
+    
+    
+}
+#resume-section-flex1:hover
+{
+    background-color: darkslategray;
+}
+#resume-section-flex2:hover
+{
+    background-color: darkslateblue;
 }
 #contact-section
 {
@@ -150,26 +190,55 @@ flex: 5;
     
     color: grey;
     justify-content: center;
-   
+    
 }
 #contact-section-flex
 {
 display:flex;
+padding: 4%;
+padding-left: 15%;
 }
 #contact-section-flex1
 {
-flex:auto;
+flex:10;
+color: white;
+background-color: darkslategrey;
+
+border-radius: 3%;
+padding:3%;
+
+
+
+}
+#contact-section-flex2
+{
+flex:10;
+color: white;
+background-color: darkolivegreen;
+
+border-radius: 3%;
+padding:3%;
+margin-left:3%;
+
+
+}
+#contact-section-flex1:hover{
+    background-color:darkgoldenrod;
+}
+#contact-section-flex2:hover
+{
+    background-color: darkcyan;
 }
 
 
-#fun-section
+/* #fun-section
 {
     display: flex;
     display:flex;
     padding-top:10%;
     justify-content: center;
     margin:10px;
-}
+} */
 .intro1
 {
     color: grey;
@@ -184,7 +253,7 @@ flex:auto;
 }
 .aboutme
 {
-    color: grey; 
+    color:white; 
     font-size: 18px; 
     font-weight: bold;
     line-height: 30px;
@@ -203,6 +272,38 @@ flex:auto;
     font-size: 15px;
     font-weight:15px;
     padding:2%;
+}
+
+/* .icon-container{
+display: inline-block;
+padding: 50%;
+}
+.icon-with-shadow
+{
+   
+    border-radius: 50%;
+    box-shadow: 0 10px 16px rgba(5 0 0 0.5);
+    background-color: azure;
+} */
+.horizontal-list
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0%;
+    
+    
+}
+.horizontal-list li
+{
+    margin-right: 6%;
+    font-size: 50px;
+    padding: 3%;
+    border-radius: 25%;
+}
+.horizontal-list :hover
+{
+    background-color: darkgoldenrod;
 }
 
 
