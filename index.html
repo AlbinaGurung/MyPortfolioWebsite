@@ -22,56 +22,61 @@
         </ul>
        
      </nav>
-     <section id="home-section " style="margin: 10%">
-         <div id="home-section-flex1">
-         <div style="border-radius: 50%; overflow: hidden; width: 180px; height: 180px; " class="image-container">
-            <img src="/images/profile.jpg" alt="" style="width: 180px; height: 180px; " alt="Profile Picture" class="moving-image" id="profile-jp">
-            <script src="js.js"></script>
-         </div>
-         </div>
+     <section id="home-section" >
 
-         <div id="home-section-flex2">
-         <span style="color:white; size: 5px;">Hello!</span>
-          <div style="font-size:50px; padding: 2%; font-weight: bold;">
-            <span style="color: white; "> Iam</span>
-            <span style="color:yellow; ">Albina Gurung</span> 
-         </div>
-          
-         <div style="margin: 20px;">
-          <span id="typing-animation" style="color: white; margin-left: 10%; font-size: 25px; font-weight: 30px;"></span>
+      <div id="home-section-flex1">
+        <div style="    overflow: hidden; width: 250px; height: 250px; border-color: darkslategray; border-style: solid; border-radius: 50%;" class="image-container">
+           <img src="/images/profile1.png" alt="" style="width: 300px; height: 300px; margin-top:0% " alt="Profile Picture" class="moving-image" id="profile-jp">
+           <script src="js.js"></script>
         </div>
-         <script>
-         const typingText=['Web Developer','Youtuber','IT Student'];
-         const typingAnimationElement=document.getElementById('typing-animation');
-         function playTypingAnimation(text)
-          {
-            for(let i=0;i<text.length;i++)
-            {
+        </div>
 
-            setTimeout(()=>
-            {
-                typingAnimationElement.textContent+=text[i];
-            },i*200);
-           }
+      <div id="home-section-flex2">
+        <span style="color:white; size: 5px;">Hello!</span>
+         <div style="font-size:50px; padding: 2%; font-weight: bold;">
+           <span style="color: white; "> Iam</span>
+           <span style="color:yellow; ">Albina Gurung</span> 
+        </div>
+         
+        <div style="margin: 20px;">
+         <span id="typing-animation" style="color: white; margin-left: 10%; font-size: 25px; font-weight: 30px;"></span>
+       </div>
+        <script>
+        const typingText=['Web Developer','Youtuber','IT Student'];
+        const typingAnimationElement=document.getElementById('typing-animation');
+        function playTypingAnimation(text)
+         {
+           for(let i=0;i<text.length;i++)
+           {
+
            setTimeout(()=>
            {
-            typingAnimationElement.textContent='';
-            playTypingAnimation(typingText[(typingText.indexOf(text)+1)%typingText.length]);
-           },text.length*200);
-           
-         }
-         playTypingAnimation(typingText[0]);
-         </script>
-         <div style="color:yellow; padding:5%; font-size: 30px; font-weight: 20px; ">
-             A consistent Learner and Coding Enthusiast
-         </div>
+               typingAnimationElement.textContent+=text[i];
+           },i*200);
+          }
+          setTimeout(()=>
+          {
+           typingAnimationElement.textContent='';
+           playTypingAnimation(typingText[(typingText.indexOf(text)+1)%typingText.length]);
+          },text.length*200);
+          
+        }
+        playTypingAnimation(typingText[0]);
+        </script>
+        <div style="color:yellow; padding:5%; font-size: 30px; font-weight: 20px; ">
+            A consistent Learner and Coding Enthusiast
+        </div>
 
-         <div style="margin-left: 10%;">
-          <button class="rounded-button"><a href="https://www.youtube.com/@learnwithalbina" style="text-decoration: none; color: black;">My Youtube</a></button>
-          <button class="rounded-button"> <a href="https://github.com/AlbinaGurung" style="text-decoration: none; color: black;">My Works</a> </button>
-         </div>
+        <div style="margin-left: 10%;">
+         <button class="rounded-button"><a href="https://www.youtube.com/@learnwithalbina" style="text-decoration: none; color: black;">My Youtube</a></button>
+         <button class="rounded-button"> <a href="https://github.com/AlbinaGurung" style="text-decoration: none; color: black;">My Works</a> </button>
+        </div>
 
-         </div>
+        </div>   
+
+         
+
+        
          
         </section>
         
@@ -167,23 +172,32 @@
        </section>
     
 
-     <section id="resume-section" style="margin: 10%">
+     <section id="resume-section" style="margin: 15%">
           <div>
             <span class="section-heading" style="color: grey ; padding-left: 40%;" >Resume</span>
             <h1 style="color: white; font-size: 50px; padding-left: 40%; padding-top: 4%; font-weight: 20; justify-items: center;">Education</h1>
           </div>
           <div id="resume-section-flex">
-            <div id="resume-section-flex1">
-            <h1> <span>2019-Present</span></h1>
-             <p class="aboutme">Currently, Iam an undergraduate student of BCA(Bacholers of Computer Application) 
-              at Gomendra Multiple College.</p>
-              
+            <div id="resume-section-flex1" >
+              <h1>SEE(2017)</h1>
+              <p class="aboutme">I passed SEE from Shree Amarkalyan Secondary School with GPA 3.20.</p>
+              <h1 style="font-size: 15px;">Address:Nayabazar-Ilam,Nepal</h1>
             </div>
+            
            <div id="resume-section-flex2">
-             <h1><span>2017-2019</span></h1>
-             <p class="aboutme">I completed my Intermediate Level from Gomendra Birtamodel Secondary School with 3.07 CGPA.</p>
-             
+             <h1><span>Intermediate Level(2017-2019)</span></h1>
+             <p class="aboutme">I completed my Intermediate Level(+2) from Gomendra Birtamodel Secondary School with CGPA 3.07.</p>
+             <h1 style="font-size: 15px;">Address:Birtamode-Jhapa,Nepal</h1>
             </div>
+          </div>
+          <div id="resume-section-flex">
+            <div id="resume-section-flex3">
+              <h1> <span>Bachelor(2019-Present)</span></h1>
+               <p class="aboutme">Currently, Iam an undergraduate student of BCA(Bacholers of Computer Application) 
+                at Gomendra Multiple College.</p>
+                <h1 style="font-size: 15px;">Address:Birtamode-Jhapa,Nepal</h1>
+                
+              </div>
           </div>
           <div class=""><h1 class="section-heading" style="font-size: 50px; font-weight:20; padding-top: 4%; padding-left: 40%;">Projects</h1>
             <div id="resume-section-flex">

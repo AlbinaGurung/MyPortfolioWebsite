@@ -102,6 +102,7 @@ body
 #home-section{
    
     display: flex;
+    margin: 15%;
    justify-content: center;
   
    
@@ -111,18 +112,18 @@ body
 {
    
     flex:auto;
-    padding-top: 40px;
+    padding-top: 30px;
 
 }
 #home-section-flex2
 {
    flex:auto;
    
-    padding:0% 30% 5% 30% ;
+    padding:0% 20% 5% 20% ;
     
-   justify-content: center;
+  
     
-    align-items: center;
+    
     
 }
 
@@ -145,6 +146,7 @@ color: grey;
 #resume-section
 {
     color:grey;
+    justify-content: center;
 }
 #resume-section-flex
 {
@@ -176,6 +178,18 @@ color: grey;
     
     
 }
+#resume-section-flex3
+{
+    flex:5;
+    padding:5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 2%;
+    
+    
+}
 #resume-section-flex1:hover
 {
     background-color: darkslategray;
@@ -183,6 +197,10 @@ color: grey;
 #resume-section-flex2:hover
 {
     background-color: darkslateblue;
+}
+#resume-section-flex3:hover
+{
+    background-color: mediumpurple;
 }
 #contact-section
 {
