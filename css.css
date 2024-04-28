@@ -67,11 +67,13 @@ body
     /* font-weight: bold; */
     font-size: medium;
     text-decoration: none;
+    cursor:pointer;
 }  
 
 .rounded-button:hover
 {
     background-color: yellow;
+    transition:1s;
 }
 /* #moveable-image
 {
@@ -102,17 +104,16 @@ body
 #home-section{
    
     display: flex;
-    margin: 15%;
-   justify-content: center;
-  
-   
-   
+    
 }
+
 #home-section-flex1
 {
    
     flex:auto;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-top: 0%;
+
 
 }
 #home-section-flex2
@@ -130,6 +131,8 @@ body
 #about-section-flex
 {
     display: flex;
+    
+    
     color:white;
     justify-content: center;
     margin-top:2%;
@@ -137,7 +140,8 @@ body
 
 #about-section-flex1
 {
-flex:5;
+    flex: auto;
+
 color: grey;
 
 
@@ -145,12 +149,14 @@ color: grey;
 
 #resume-section
 {
+    display: flex;
     color:grey;
     justify-content: center;
 }
 #resume-section-flex
 {
     display:flex;
+   
     color:white;
     justify-content: center;
     margin-top: 2%;;
@@ -158,9 +164,9 @@ color: grey;
 
 #resume-section-flex1
 {
-    flex:10;
+    
+   flex: 10;
     padding:3%;
-   
     color: white;
     background-color: darkgoldenrod;
     border-radius: 2%;
@@ -169,6 +175,8 @@ color: grey;
 
 #resume-section-flex2
 {
+    
+    
     flex:10;
     padding:3%;
     margin-left: 3%;
@@ -180,7 +188,8 @@ color: grey;
 }
 #resume-section-flex3
 {
-    flex:5;
+    
+    flex:10;
     padding:5%;
     margin-left: 12%;
     margin-right: 12%;
@@ -206,8 +215,7 @@ color: grey;
 {
    
     
-    color: grey;
-    justify-content: center;
+    color: grey;    justify-content: center;
     
 }
 #contact-section-flex
@@ -271,18 +279,25 @@ margin-left:3%;
 }
 .aboutme
 {
+    display: flex;
     color:white; 
+    align-items: center;
     font-size: 18px; 
     font-weight: bold;
     line-height: 30px;
 }
-.section-heading{
+.section-heading
+{
+   display: flex;
+
+   justify-content: center;
+     align-items: center;
     color:white;
     font-size: 50px; 
      font-weight: bold;
-     padding-left: 35%;
-     display: block;
+    
      width: 100%;
+     
 }
 #linkstyle
 {
@@ -306,24 +321,42 @@ padding: 50%;
 .horizontal-list
 {
     display: flex;
+    
+  justify-content: center; 
+  align-items: center;
     list-style-type: none;
-    padding: 0;
-    margin-top: 0%;
+   
+   padding: 2%;
+   
     
     
 }
 .horizontal-list li
 {
-    margin-right: 6%;
+    margin-left: 6%;
+
     font-size: 50px;
-    padding: 3%;
+    padding: 5%;
     border-radius: 25%;
 }
 .horizontal-list :hover
 {
     background-color: darkgoldenrod;
 }
-
+.footer
+{
+    color: white;
+    font-size: 15px;
+    margin-left:40%;
+    
+}
+.contacticon-list
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
 
  
 

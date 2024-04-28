@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Page</title>
+    <link rel="stylesheet" href="Query.css">
+</head>
+<body>
+   
+    <div class="containertop">
+        <div class="containerheading">
+            <h1 style="font-family: cursive;">Send Queries to Albina Gurung</h1>
+        </div>
+     <form id="myForm"  action="Query.php" method="POST">
+    <div class="container" >
+        <div class="containeritem" >
+         <label for="name">Name</label>
+         <input type="text" id="name" class="input" name="name">
+        </div>
+    </div>
+    <div class="container">
+        <div class="containeritem">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input" name="email">
+        </div>
+    </div>
+    <div class="container">
+        <div class="containeritem">
+         <label for="subject">Subject</label>
+         <input type="text" id="subject" class="input" name="subject">
+        </div>
+    </div>
+    <div class="container" style="padding: 2%;">
+        <div class="">
+        <label for="messege">Message</label>
+        <textarea name="message" id="message" cols="50" rows="8"></textarea>
+    </div>
+    </div>
+    <div class="container">
+        <div class="containeritem">
+        <button class="button ">Submit</button>
+        <button class="button">Clear</button>
+       </div>
+    </div>
+</form>
+
+</div>
+
+<!-- <div id="SuccessMessage" style="display: none;">
+    <p>Submitted Successfully</p>
+</div>
+<script>
+    document.getElementById("myForm").addEventListener("submit",function(event)
+    { 
+    event.preventDefault();//prevent default form subission
+    document.getElementById("SuccessMessage").style.display="block";//show success message
+    });
+</script> -->
+</body>
+</html>

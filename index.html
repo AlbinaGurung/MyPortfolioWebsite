@@ -5,33 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albina Gurung</title>
     <link rel="stylesheet" href="css.css">
-    <!-- <script src="https://kit.fontawesome.com/023251fd73.js" crossorigin="anonymous"></script> -->
+    
     <link rel="stylesheet" href="Font-Awesome/fontawesome-free-6.5.1-web/css/all.min.css">
+   
 </head>
-<!-- <body style="background-image:url(/images/astheticpinkBG.png);background-size:cover;background-repeat: no-repeat;"> -->
+
     <body>
-        <nav>
+        <nav style="position: sticky;">
         
             <ul>
             <li >
-            <a href="#home-section" ><span>Home</span></a>
+            <a href="#home-section"><span>Home</span></a>
             <a href="#about-section"><span>About</span></a>
-            <a href="#resume-section" ><span>Resume</span></a>
+            <a href="#resume-section"><span>Resume</span></a>
             <a href="#contact-section"><span>Contact</span></a>
             </li>
         </ul>
        
      </nav>
-     <section id="home-section" >
+     
+     <section id="home-section" style="margin:10%; ">
 
-      <div id="home-section-flex1">
-        <div style="    overflow: hidden; width: 250px; height: 250px; border-color: darkslategray; border-style: solid; border-radius: 50%;" class="image-container">
-           <img src="/images/profile1.png" alt="" style="width: 300px; height: 300px; margin-top:0% " alt="Profile Picture" class="moving-image" id="profile-jp">
+      <div id="home-section-flex1" >
+        <div style="    overflow: hidden; width: 250px; height: 250px; border-color: darkslategray; border-style: solid; border-radius: 50%; margin-top: 25%;" class="image-container">
+           <img src="images/Profile1.png" alt="" style="width: 300px; height: 300px; margin-top:0% " alt="Profile Picture" class="moving-image" id="profile-jp">
            <script src="js.js"></script>
         </div>
         </div>
 
-      <div id="home-section-flex2">
+      <div id="home-section-flex2" >
         <span style="color:white; size: 5px;">Hello!</span>
          <div style="font-size:50px; padding: 2%; font-weight: bold;">
            <span style="color: white; "> Iam</span>
@@ -42,7 +44,7 @@
          <span id="typing-animation" style="color: white; margin-left: 10%; font-size: 25px; font-weight: 30px;"></span>
        </div>
         <script>
-        const typingText=['Web Developer','Youtuber','IT Student'];
+        const typingText=['IT Student','Web Developer','Youtuber',];
         const typingAnimationElement=document.getElementById('typing-animation');
         function playTypingAnimation(text)
          {
@@ -80,12 +82,12 @@
          
         </section>
         
-     <section id="about-section" style="margin:10%;">
-         <div>
-           <span class="section-heading" style="padding-left: 35%;"> About Me</span>
+     <section id="about-section" style="margin:10%;  ">
+         <div class="section-heading" style="display: flex">
+           <p > About Me</p>
          </div>
-         <div id="about-section-flex" style="padding-top: 0%;">
-         <div id="about-section-flex1" class="aboutme">
+         <div id="about-section-flex" style="padding-top: 0%; ">
+         <div id="about-section-flex1" class="aboutme" >
           <div id="introduction" >
             <ul>
                 <li style="list-style-type: none;"><span >Name:</span><span >Albina Gurung</span></li>
@@ -155,10 +157,10 @@
          
 
          </div>
-         <div id="about-section-flex1" class="aboutme">
+         <div id="about-section-flex1" class="aboutme" >
           <div ><p>With an year of Comprehensive Experience in application development, I have acquired knowledge of how an 
             application is planned, structured, built and maintained. I have found this journey full of fun and impactful.<br> 
-        I consider myself as an evergreen lerner and an explorer who loves to collaborate, learn and work togther and trying out bunch 
+        I consider myself as an evergreen learner and an explorer who loves to collaborate, learn and work togther and trying out bunch 
           of new things.</p></div>
           <ul>
             <li>Profile: Web Developer </li>
@@ -172,26 +174,26 @@
        </section>
     
 
-     <section id="resume-section" style="margin: 15%">
+     <section id="resume-section" style="margin: 15%; ">
           <div>
-            <span class="section-heading" style="color: grey ; padding-left: 40%;" >Resume</span>
-            <h1 style="color: white; font-size: 50px; padding-left: 40%; padding-top: 4%; font-weight: 20; justify-items: center;">Education</h1>
+            <span class="section-heading" style="color: grey ; display: flex;">Resume</span>
+            <h1 class="section-heading" style="display:flex">Education</h1>
           </div>
-          <div id="resume-section-flex">
+          <div id="resume-section-flex" >
             <div id="resume-section-flex1" >
               <h1>SEE(2017)</h1>
-              <p class="aboutme">I passed SEE from Shree Amarkalyan Secondary School with GPA 3.20.</p>
+              <p class="aboutme" > I passed SEE from Shree Amarkalyan Secondary School with GPA 3.20.</p>
               <h1 style="font-size: 15px;">Address:Nayabazar-Ilam,Nepal</h1>
             </div>
             
-           <div id="resume-section-flex2">
+           <div id="resume-section-flex2" >
              <h1><span>Intermediate Level(2017-2019)</span></h1>
              <p class="aboutme">I completed my Intermediate Level(+2) from Gomendra Birtamodel Secondary School with CGPA 3.07.</p>
              <h1 style="font-size: 15px;">Address:Birtamode-Jhapa,Nepal</h1>
             </div>
           </div>
-          <div id="resume-section-flex">
-            <div id="resume-section-flex3">
+          <div id="resume-section-flex" >
+            <div id="resume-section-flex3" >
               <h1> <span>Bachelor(2019-Present)</span></h1>
                <p class="aboutme">Currently, Iam an undergraduate student of BCA(Bacholers of Computer Application) 
                 at Gomendra Multiple College.</p>
@@ -199,8 +201,8 @@
                 
               </div>
           </div>
-          <div class=""><h1 class="section-heading" style="font-size: 50px; font-weight:20; padding-top: 4%; padding-left: 40%;">Projects</h1>
-            <div id="resume-section-flex">
+          <div class=""><p class="section-heading" style=" display: flex; ">Projects</p>
+            <div id="resume-section-flex" >
               <div id="resume-section-flex1" >
                 <h1> Pahuna Ghar</h1>
                 <p class="aboutme" >Pahuna Ghar is a Hotel Management System. It keeps records of rooms and guests, 
@@ -227,16 +229,18 @@
                 <span><a href="https://github.com/AlbinaGurung/OnlineInventoryManagementSystem" id="linkstyle">GitHub Link</a></span>
               </div>
              </div>
-             <div style="margin-top:3%; font-size: 18px;" class="section-heading"><h1 style="color: white;">More Projects on 
+             <div style="display: flex; justify-content: center; align-items: center;"  >
+              <p class="aboutme">More Projects on 
            <button class="rounded-button" > <a href="https://github.com/AlbinaGurung" class="rounded-button" style="color: black;">GitHub</a></button></h1>
             </div>
           </div>
      </section>
 
-     <section id="contact-section" style="margin: 15%">
-      <div class="section-heading">Contact Me
-        <h1 style="color: grey;font-size: 18px; margin-top:2%;">Below are the details to reach out to me</h1> 
-       </div>
+     <section id="contact-section" style="margin: 15%;">
+      
+        <p class="section-heading" style="display: flex;">Contact Me</p>
+        <p class="aboutme" style="display: flex; justify-content: center;align-items: center;">Below are the details to reach out to me</p> 
+       
        <div id="contact-section-flex">
        <div id="contact-section-flex1">
         
@@ -260,25 +264,39 @@
        <h1 style="font-weight: 20;">gurungalbina852@gmail.com</h1>
       </div>
     </div>
-     <div style="padding-left: 40%; margin-top:0%;">
-      <h1 style="font-size: 25px;   ">Also Find me on</h1>
+     <div class="contacticon-list">
+      <h1 style="font-size: 25px; margin-bottom: 0%;  ">Also Find me on</h1>
       <ul class="horizontal-list">
         <li ><a href="https://www.youtube.com/@learnwithalbina"><span class="fa-brands fa-youtube" style="color: white;"></span></a></li>
         <li><a href="https://www.linkedin.com/in/albina-gurung/"><span class="fa-brands fa-linkedin" style="color:white"></span></a></li>
         <li><a href="https://www.instagram.com/albinagurung9/"><span class="fa-brands fa-instagram" style="color: white;"></span></a></li>
       </ul>
+
      </div>
-       <div class="section-heading" style="font-size:18px; margin-top:15%;"><h1>Have a Question?
-       <button class="rounded-button"><a href="">Click Here</a></button></h1>
+
+       <div class="section-heading" style="font-size:18px; margin-top:15%; display: flex;"><h1>Have a Query?
+       <button class="rounded-button"><a href="Query/Query.html">Click Here</a></button></h1>
       </div>
-             <!-- <div style="color: white;" class="section-heading">Below are the details to reach out to me
-              <h1 style="font-size: 25px; color: white;">Below are the details to reach out to me</h1> 
-              </div> -->
+          
              
       </section>
       <!-- <section id="fun-section" style="margin: 10%">
         <button class="colorbtn" onclick="changeColor()">changecolor</button>
       </section> -->
-    
+    <footer>
+      <div class="footer"><p style="color: white;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p></div>
+    </footer>
  </body>
  </html>
+ <script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor=>
+  {
+  anchor.addEventListener('click',function(e)
+  {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behaviout:'smooth'
+    });
+  });
+});
+   </script>
